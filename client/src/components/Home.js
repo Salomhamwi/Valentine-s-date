@@ -142,17 +142,19 @@ const KisseyGif = styled.img`
 `;
 
 const GreenButton = styled(motion.button)`
-  background-color: green;
+  background-color: #8aff8a; 
   color: white;
   padding: 10px 20px;
   cursor: pointer;
+  border-radius: 8px;
 `;
 
 const RedButton = styled(motion.button)`
-  background-color: red;
+  background-color: #ff8a8a; 
   color: white;
   padding: 10px 20px;
   cursor: pointer;
+  border-radius: 8px;
 `;
 
 export default Home;
